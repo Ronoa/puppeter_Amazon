@@ -40,25 +40,4 @@
 
   * logearse a github, buscar repos y mostrar los nombres del proyecto, duenios y estrellas
 
-
-## Estructura para un backend 
-
-  src
-    Controlllers
-      * agrupar todas los controladores (funciones) que se podran hacer uso desde una api
-    datalayer 
-      * configuraciones para las conecciones de las bd o servicios externos
-      connection
-        * configuraciones para conectar la bd o servicios ( uso de los envs)
-        * coneccion con servicios externos ( amazon, postgress )
-      models
-        * esquemas de las bd mongo
-    service
-      api
-        controllers
-          * agrupa el enrrutamiento para los src/controllers
-        routes
-          * rutas disponibles
-    utils
-      * funciones reutilizables
-
+ 
